@@ -1,0 +1,143 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: lightgreen;
+}
+
+@media only screen and (max-width: 649px) {
+
+  .navBar {
+    width: 40vw;
+    height: 7vh;
+
+    background: lightblue;
+  }
+
+  .header {
+    width: 97vw;
+    height: 10vh;
+
+    background: violet;
+    margin: 0 auto;
+  }
+
+  .item {
+    width: 100vw;
+    height: 50vh;
+
+    background: lightyellow;
+  }
+
+  .photo {
+    width: 100vw;
+    height: 30vh;
+    background: darkgrey;
+  }
+
+  .paragraph {
+    word-wrap: break-word;
+    padding: 5vw;
+  }
+  .title {
+    padding-left: 2vw;
+  }
+
+}
+
+@media only screen and (min-width: 650px) {
+
+  .navBar {
+    width: 40vw;
+    height: 7vh;
+
+    background: lightblue;
+  }
+
+  .header {
+    width: 97vw;
+    height: 10vh;
+
+    background: violet;
+    margin: 0 auto;
+    margin-bottom: 4vh;
+  }
+
+  .itemList {
+    width: calc(90vw + 4px);
+    height: 100vh;
+
+    /*background: pink;*/
+    margin: 0 auto;
+  }
+
+  .item {
+    width: 45vw;
+    height: 50vh;
+    display: inline-block;
+    margin-bottom: 4vh;
+    background: lightyellow;
+  }
+
+  .photo {
+    width: 45vw;
+    height: 30vh;
+    background: darkgrey;
+  }
+
+  .paragraph {
+    word-wrap: break-word;
+    padding: 5vw;
+  }
+  .title {
+    padding-left: 2vw;
+  }
+
+@media only screen and (min-width: 1300px){
+    .navBar {
+    width: 40vw;
+    height: 7vh;
+
+    background: lightblue;
+  }
+
+  .header {
+    width: 80vw;
+    height: 10vh;
+
+    background: violet;
+    margin: 0 auto;
+    margin-bottom: 4vh;
+  }
+  .itemList {
+    width: 81vw;
+    height: 100vh;
+
+    /*background: pink;*/
+    margin: 0 auto;
+  }
+
+  .item {
+    width: 20vw;
+    height: 50vh;
+    display: inline-block;
+    margin-bottom: 4vh;
+    background: lightyellow;
+  }
+
+  .photo {
+    width: 20vw;
+    height: 30vh;
+    background: darkgrey;
+  }
+
+  .paragraph {
+    word-wrap: break-word;
+    padding: 1vw;
+    font-size: 14pt;
+  }
+  .title {
+    padding-left: 2vw;
+    font-size: 16pt;
+  }
+
+}
